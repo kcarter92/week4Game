@@ -1,0 +1,40 @@
+body
+{
+	background: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Saira Condensed', sans-serif;
+	font-weight: bold;
+	text-shadow: 0.5px 0.5px #000;
+	color: #fff;
+
+}
+
+header
+{
+	text-align: center;
+}
+
+.availableChar
+{
+	display: inline-block;
+	text-align: center;
+	margin-right: 5px;
+	background: #000
+}
+
+.characterImg
+{
+	width: 150px;
+	height: 100px;
+}
+
+.hero
+{
+	border: 5px solid #579900;
+}
+
+.enemy
+{
+	border: 5px solid #579900;
+}

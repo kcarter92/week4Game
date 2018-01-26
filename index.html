@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Star Wars RPG</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Condensed:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Star Wars RPG</h1>
+	</header>
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-lg-12">
+			<h2>Character List</h2>
+			<div id="characterList">
+				<div class="availableChar" id="obi">
+					<p>Obi-Wan Kenobi</p>
+					<img class="characterImg" src="assets/images/obi-wan.jpg" value="obi">
+					<p class="health">100</p>
+				</div>
+				<div class="availableChar" id="luke">
+					<p>Luke Skywalker</p>
+					<img class="characterImg" src="assets/images/luke.jpg" value = "lukeSkywalker">
+					<p class="health">100</p>
+				</div>
+				<div class="availableChar" id="emperor">
+					<p>Emperor Palpatine</p>
+					<img class="characterImg" src="assets/images/emperor.jpg" value = "emperorPalpatine">
+					<p class="health">100</p>
+				</div>
+				<div class="availableChar" id="vader">
+					<p>Darth Vader</p>
+					<img class="characterImg" src="assets/images/vader.jpg" value = "darthVader">
+					<p class="health">100</p>
+				</div>
+			</div>
+			<br>
+		</div>	
+	</div>
+	<div class="row">
+		<div class="col-lg-12">
+			<div id="usersChoice">
+				<h2>Your Character</h2>
+				<div class="userChar"></div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-12">	
+			<div id="enemyChar">
+				<h2>Enemies Available to Attack</h2>
+				<div class="enemies"></div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<button id="attackButton">ATTACK!</button>
+	<br>
+	<div class="row">
+		<div class="col-lg-12">	
+			<div id="defend">
+				<h2>Defender</h2>
+				<div class="defender"></div>
+			</div>
+		</div>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>
